@@ -4,10 +4,15 @@ using UnityEngine;
 
 public class GedungController : MonoBehaviour
 {
-    public GameObject[] gedungCollider;
+    public bool isPatah;
+
+    [Space(10)] public GameObject[] gedungCollider;
     public GameObject[] gedungMesh;
     public void OnMLeyotAnimationEndEvent()
     {
+        if (!isPatah)
+            return;
+
         foreach(GameObject obj in gedungCollider)
         {
             obj.SetActive(true);
