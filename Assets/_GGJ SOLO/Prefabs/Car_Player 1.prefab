@@ -450,10 +450,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   baseStats:
-    TopSpeed: 10
-    Acceleration: 5
-    ReverseSpeed: 8
-    ReverseAcceleration: 2
+    TopSpeed: 25
+    Acceleration: 7
+    ReverseSpeed: 18
+    ReverseAcceleration: 4
     AccelerationCurve: 0.5
     Braking: 16
     CoastingDrag: 5
@@ -3903,7 +3903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba68fd4c8298fbe4ba12e97f7586abd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  objectsCollected: 0
+  objectsCount: 0
 --- !u!1 &4709064727176692478
 GameObject:
   m_ObjectHideFlags: 0
@@ -4690,6 +4690,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1116088858962130054}
   - component: {fileID: 8736028018236122270}
+  - component: {fileID: 1874200647}
   m_Layer: 13
   m_Name: KartBouncing (1)
   m_TagString: Player
@@ -4725,3 +4726,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.8808136, y: 1.2115828, z: 1.540369}
   m_Center: {x: -0.018058777, y: 1.4762537, z: 1.2468386}
+--- !u!114 &1874200647
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6939548710349918602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba68fd4c8298fbe4ba12e97f7586abd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsCount: 0
