@@ -185,7 +185,7 @@ MonoBehaviour:
 
     1. Musfiq_a
 
-    2. Dzulfikar
+    2. Dzulfikar68
 
     3. Rakha_M
 
@@ -828,7 +828,7 @@ RectTransform:
   m_GameObject: {fileID: 801115707}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3.2896, y: 3.2896, z: 3.2896}
+  m_LocalScale: {x: 6.6682887, y: 6.6682887, z: 6.6682887}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 272335457}
@@ -836,7 +836,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -632, y: 180}
+  m_AnchoredPosition: {x: -147, y: 2}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &801115709
@@ -859,7 +859,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a681c0d7b48a71343a335f656d20bfc2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6977d23173bbb09488e4b3d27be00a66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -914,7 +914,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -147, y: -29.000023}
+  m_AnchoredPosition: {x: 268, y: -276}
   m_SizeDelta: {x: 483, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &959098364
@@ -1882,7 +1882,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &2026997508
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1982,7 +1982,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -147, y: -179}
+  m_AnchoredPosition: {x: -599, y: -271}
   m_SizeDelta: {x: 483, y: 135}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2042804255
