@@ -14,8 +14,8 @@ public class MenuManager : MonoBehaviour
 
     public void OnClickPlayButton()
     {
-        //LOAD GAMEPLAY
-        SceneManager.LoadScene("Level_1");
+        //LOAD GAMEPLAY by index
+        SceneManager.LoadScene(1);
     }
 
     public void OnClickInfoButton()

@@ -22,6 +22,7 @@ public class Timer : MonoBehaviour
         // Start the timer with a duration of 10 seconds
         StartTimer(gameTimer);
     }
+    
 
     // Start the timer with the specified duration
     public void StartTimer(float duration, UnityAction endAction = null)
@@ -62,7 +63,6 @@ public class Timer : MonoBehaviour
 
             GameManager.instance.score = (currentTimePercentage * 1000) + (objectsCountPercentage * 1000);
 
-            Debug.Log("Score : " + GameManager.instance.score.ToString(".000"));
 
             GameManager.instance.scoreText.text = ("Score : ") + GameManager.instance.score.ToString("0.000");
             GameManager.instance.timerText.text = ("Timer : ") + currentTime.ToString("0.00");

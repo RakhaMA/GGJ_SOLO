@@ -52,7 +52,9 @@ public class GameManager : MonoBehaviour
     }
 
     public void LoadSceneIndex(int sceneIndex){
+        Debug.Log("Load Scene : " + sceneIndex);
         SceneManager.LoadScene(sceneIndex);
+        
     }
 
     public void RestartScene(){
