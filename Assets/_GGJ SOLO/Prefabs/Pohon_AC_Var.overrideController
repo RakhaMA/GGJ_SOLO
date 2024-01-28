@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Pohon_AC_Var
+  m_Controller: {fileID: 9100000, guid: 29954d9a8ef09b5439db5f8001e16428, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 269663018994238269, guid: de4f88c699dd0b642b82430345db7b39,
+      type: 3}
+    m_OverrideClip: {fileID: -7466177331531721346, guid: 510021011b036844fb4b871f96a0d0b8,
+      type: 3}
+  - m_OriginalClip: {fileID: 2264316395878601846, guid: de4f88c699dd0b642b82430345db7b39,
+      type: 3}
+    m_OverrideClip: {fileID: 3729489151848760729, guid: 510021011b036844fb4b871f96a0d0b8,
+      type: 3}
