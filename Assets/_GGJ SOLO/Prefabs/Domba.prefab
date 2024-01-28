@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &5763749358304604066
+--- !u!1 &3154404106349963668
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,48 +8,48 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4951464989057742104}
-  - component: {fileID: 8293652187936914109}
-  - component: {fileID: 6123787120047689335}
-  - component: {fileID: 6866377888702424534}
-  - component: {fileID: 6234091222814702407}
+  - component: {fileID: 2345638178879550254}
+  - component: {fileID: 1667100333542390923}
+  - component: {fileID: 3514581918927177793}
+  - component: {fileID: 2812454002353405727}
+  - component: {fileID: 961024861873891061}
   m_Layer: 17
-  m_Name: Soccer
+  m_Name: Domba
   m_TagString: Objects
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4951464989057742104
+--- !u!4 &2345638178879550254
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763749358304604066}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 35, y: 35, z: 35}
+  m_GameObject: {fileID: 3154404106349963668}
+  m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 170.07, y: 4.63, z: -64.2}
+  m_LocalScale: {x: 0.15, y: 0.15, z: 0.15}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8293652187936914109
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &1667100333542390923
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763749358304604066}
-  m_Mesh: {fileID: 4711208715938537054, guid: ec1a84c9c6f2c9c4f9395be02fa71724, type: 3}
---- !u!23 &6123787120047689335
+  m_GameObject: {fileID: 3154404106349963668}
+  m_Mesh: {fileID: -5495902117074765545, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
+--- !u!23 &3514581918927177793
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763749358304604066}
+  m_GameObject: {fileID: 3154404106349963668}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -63,7 +63,10 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6dc0cf0cda15e274ebbc8d3dc4abf420, type: 2}
+  - {fileID: -6284711488138734081, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
+  - {fileID: 8954543288165306565, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
+  - {fileID: 3080313569492251629, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
+  - {fileID: -7058619843978291579, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,32 +88,33 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &6866377888702424534
-SphereCollider:
+--- !u!64 &2812454002353405727
+MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763749358304604066}
+  m_GameObject: {fileID: 3154404106349963668}
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.01
-  m_Center: {x: -4.656613e-10, y: -0.0000000013969836, z: 0}
---- !u!54 &6234091222814702407
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -5495902117074765545, guid: daf73fb1a1d5adc4789ac7a83a20ce9c, type: 3}
+--- !u!54 &961024861873891061
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5763749358304604066}
+  m_GameObject: {fileID: 3154404106349963668}
   serializedVersion: 2
-  m_Mass: 10
+  m_Mass: 100
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 0
+  m_Interpolate: 2
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 2
