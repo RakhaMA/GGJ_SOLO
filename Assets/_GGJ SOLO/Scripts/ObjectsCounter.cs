@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class ObjectsCounter : MonoBehaviour
 {
+    public int objectsCount = 0;
     // check if any object is staying on the trigger area, and count it
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.CompareTag("Objects"))
         {
-            GameManager.instance.objectsCount++;
-            GameManager.instance.objectCounterText.text = ("Objects : ") + GameManager.instance.objectsCount.ToString("0") + ("/") + GameManager.instance.maxObjectsThisLevel.ToString("0");
+            objectsCount++;
+            GameManager.instance.objectCounterText.text = ("Objects : ") + objectsCount.ToString("0");
         }
     }
 
@@ -19,13 +20,8 @@ public class ObjectsCounter : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Objects"))
         {
-            GameManager.instance.objectsCount--;
-            GameManager.instance.objectCounterText.text = ("Objects : ") + GameManager.instance.objectsCount.ToString("0") + ("/") + GameManager.instance.maxObjectsThisLevel.ToString("0");
-            if (GameManager.instance.objectsCount == 0)
-            {
-                GameManager.instance.GameOver();
-            }
+            objectsCount--;
+            GameManager.instance.objectCounterText.text = ("Objects : ") + objectsCount.ToString("0");
         }
     }
-
 }

@@ -14,9 +14,6 @@ public class Timer : MonoBehaviour
     // Event to notify when the timer ends
     public event UnityAction TimerEnded;
 
-    private float currentTimePercentage;
-    private float objectsCountPercentage;
-
     private void Start()
     {
         // Start the timer with a duration of 10 seconds
@@ -54,19 +51,7 @@ public class Timer : MonoBehaviour
         if (isTimerRunning)
         {
             currentTime -= Time.deltaTime;
-
-            currentTime = Mathf.Clamp(currentTime, 0f, gameTimer);
-            currentTimePercentage = currentTime / gameTimer;
-
-            objectsCountPercentage = GameManager.instance.objectsCount / GameManager.instance.maxObjectsThisLevel;
-
-            GameManager.instance.score = (currentTimePercentage * 1000) + (objectsCountPercentage * 1000);
-
-            Debug.Log("Score : " + GameManager.instance.score.ToString(".000"));
-
-            GameManager.instance.scoreText.text = ("Score : ") + GameManager.instance.score.ToString("0.000");
             GameManager.instance.timerText.text = ("Timer : ") + currentTime.ToString("0.00");
-            GameManager.instance.scoreText.text = ("Score : ") + GameManager.instance.score.ToString("0");
 
             if (currentTime <= 0f)
             {
