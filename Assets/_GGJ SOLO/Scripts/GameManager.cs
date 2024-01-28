@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     public GameObject gameOverPanel;
+    public GameObject gameEndPanel;
 
     public TextMeshProUGUI timerText;
     public TextMeshProUGUI objectCounterText;
@@ -28,8 +29,13 @@ public class GameManager : MonoBehaviour
         
     }
 
-    public void OnTimerEnd(){
-        Debug.Log("Timer ended");
+    public void EndGame(){
+        Debug.Log("Game Clear");
+        gameEndPanel.SetActive(true);
+    }
+
+    public void GameOver(){
+        Debug.Log("Game Over");
         gameOverPanel.SetActive(true);
     }
 }
