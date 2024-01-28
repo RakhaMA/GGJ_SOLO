@@ -51,7 +51,7 @@ public class Timer : MonoBehaviour
         if (isTimerRunning)
         {
             currentTime -= Time.deltaTime;
-            GameManager.instance.timerText.text = ("Timer : ") + currentTime.ToString("0");
+            GameManager.instance.timerText.text = ("Timer : ") + currentTime.ToString("0.00");
 
             if (currentTime <= 0f)
             {
