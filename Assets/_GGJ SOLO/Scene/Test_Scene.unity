@@ -2436,6 +2436,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverPanel: {fileID: 0}
+  gameEndPanel: {fileID: 0}
   timerText: {fileID: 204317694}
   objectCounterText: {fileID: 1346499724}
 --- !u!4 &1299184026
@@ -3583,6 +3584,46 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 908400250784031508, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400250784031508, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2099991
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400250790686369, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400250790686369, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2799972
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400251835325138, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400251835325138, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400252495643683, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 908400252495643683, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.21
+      objectReference: {fileID: 0}
     - target: {fileID: 908400252564538475, guid: 42a3ad7856d9d714f842e05024d62a7e,
         type: 3}
       propertyPath: m_RootOrder
@@ -3642,6 +3683,46 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Car_Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738349, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.30999994
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738349, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.2799972
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738353, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738353, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738355, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.31
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738355, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.28
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738359, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.27999997
+      objectReference: {fileID: 0}
+    - target: {fileID: 2477653213491738359, guid: 42a3ad7856d9d714f842e05024d62a7e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.2099991
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 42a3ad7856d9d714f842e05024d62a7e, type: 3}
